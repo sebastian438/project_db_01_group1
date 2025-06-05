@@ -1,0 +1,10 @@
+INSERT INTO Profesor(nombre) VALUES ('Noa Yáñez');
+INSERT INTO Profesor(nombre) VALUES ('Saturnina Benitez');
+INSERT INTO Profesor(nombre) VALUES ('Anna Feliu');
+INSERT INTO Profesor(nombre) VALUES ('Rosalva Ayuso');
+INSERT INTO Profesor(nombre) VALUES ('Ana Sofía Ferrer');
+INSERT INTO Profesor(nombre) VALUES ('Angélica Corral');
+INSERT INTO Profesor(nombre) VALUES ('Ariel Lledó');
+INSERT INTO Profesor(nombre) VALUES ('Mario Prats');
+INSERT INTO Profesor(nombre) VALUES ('Luis Ángel Suárez');
+INSERT INTO Profesor(nombre) VALUES ('María Dolores Diaz');
