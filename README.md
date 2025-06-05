@@ -80,11 +80,8 @@ proyecto-bd-relacional/
 |   └── modelo-logico.png
 |   └── render-config.md  
 ├──  scripts/
-│   ├──  crear_tablas.sql
-│   ├──  insert_alumno.sql
-│   └──  insert_profesor.sql
-│   └──  insert_proyecto.sql
-│   └──  insert_vertical.sql
+│   ├──  create_tables_and_inserts.sql
+│   └──  python_parse_CSVs.py
 ├──  data/
 │   └──  clase_1.csv
 │   └──  clase_2.csv
@@ -121,7 +118,7 @@ La base de datos está disponible públicamente desde Render.
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/sebastian438/project_db_group1.git
+   git clone https://github.com/sebastian438/project_db_01_group1.git
    ```
 2.Ver y ejecutar los scripts en tu entorno PostgreSQL.
 
