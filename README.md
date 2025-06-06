@@ -93,11 +93,10 @@ proyecto-bd-relacional/
 
 ## Despliegue
 
-La base de datos está disponible públicamente desde Render.
+La base de datos está disponible públicamente desde Render. Si quieres acceder a la BBDD puedes pedirnos la clave de acceso.
 
 - **Base de Datos**: `Base de datos relacional The Bridge`
-- **URL Render**: `postgresql://base_de_datos_relacional_the_bridge_user:2MyeVVUd0ZBuaeTXQMEtcwx6rkkVCXst@dpg-d10qkg3e5dus73ajo0og-a.frankfurt-postgres.render.com/base_de_datos_relacional_the_bridge`   
-
+- **host** = "dpg-d10qkg3e5dus73ajo0og-a.frankfurt-postgres.render.com"
 
 ---
 
