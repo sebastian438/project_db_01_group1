@@ -1,8 +1,16 @@
 import pandas as pd
+from dotenv import load_dotenv, dotenv_values
 from os import makedirs
+from io import StringIO
 
-
+config = dotenv_values(".env")
 makedirs('../SQLs/', exist_ok=True)
+
+def sql_connection (): 
+    conn = psycopg2.connect(
+    host = config.host, port = config.port, dbname = config.dbname, user=config.username, password=config.pswd)
+    print()
+
 
 def write_sql(table_name, df):
     with open(f'../SQLs/{table_name}.sql', 'w') as fh:
@@ -61,5 +69,5 @@ for i, row in enumerate(df_FS.itertuples()):
         sql_lines += ['INSERT INTO Evaluacion(resultado, id_alumno, id_proyecto) VALUES ('+
               f"'{v}', {i+1+df_DS.shape[0]}, {j+1+5});\n"]
 
-with open('SQLs/evaluacion.sql', 'w') as fh:
+with open('../SQLs/evaluacion.sql', 'w') as fh:
     fh.writelines(sql_lines)
